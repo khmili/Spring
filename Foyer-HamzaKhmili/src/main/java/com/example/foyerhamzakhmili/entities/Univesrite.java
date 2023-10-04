@@ -15,4 +15,27 @@ public class Univesrite implements Serializable {
     @Column (name="addresse")
     private String adresse;
 
+    public Long getIdUnivesity() {
+        return idUnivesity;
+    }
+
+    public void setIdUnivesity(Long idUnivesity) {
+        this.idUnivesity = idUnivesity;
+    }
+
+    public String getNomUniversite() {
+        return nomUniversite;
+    }
+
+    public void setNomUniversite(String nomUniversite) {
+        this.nomUniversite = nomUniversite;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
 }

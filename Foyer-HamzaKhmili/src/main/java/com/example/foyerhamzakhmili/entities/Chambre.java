@@ -14,4 +14,27 @@ private Long numeroChambre;
     @Enumerated(EnumType.STRING)
     private TypeChambre TypeChambre;
 
+    public Long getIdChambre() {
+        return idChambre;
+    }
+
+    public void setIdChambre(Long idChambre) {
+        this.idChambre = idChambre;
+    }
+
+    public Long getNumeroChambre() {
+        return numeroChambre;
+    }
+
+    public void setNumeroChambre(Long numeroChambre) {
+        this.numeroChambre = numeroChambre;
+    }
+
+    public com.example.foyerhamzakhmili.entities.TypeChambre getTypeChambre() {
+        return TypeChambre;
+    }
+
+    public void setTypeChambre(com.example.foyerhamzakhmili.entities.TypeChambre typeChambre) {
+        TypeChambre = typeChambre;
+    }
 }

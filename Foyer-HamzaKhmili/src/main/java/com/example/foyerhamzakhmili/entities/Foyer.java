@@ -14,4 +14,28 @@ public class Foyer implements Serializable {
     private String NomFoyer ;
     @Column (name="capaciteFoyer")
     private Long capaciteFoyer;
+
+    public long getIdFoyer() {
+        return idFoyer;
+    }
+
+    public void setIdFoyer(long idFoyer) {
+        this.idFoyer = idFoyer;
+    }
+
+    public String getNomFoyer() {
+        return NomFoyer;
+    }
+
+    public void setNomFoyer(String nomFoyer) {
+        NomFoyer = nomFoyer;
+    }
+
+    public Long getCapaciteFoyer() {
+        return capaciteFoyer;
+    }
+
+    public void setCapaciteFoyer(Long capaciteFoyer) {
+        this.capaciteFoyer = capaciteFoyer;
+    }
 }

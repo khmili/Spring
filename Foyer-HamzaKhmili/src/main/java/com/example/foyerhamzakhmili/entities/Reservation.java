@@ -16,4 +16,27 @@ public class Reservation implements Serializable {
 
     private boolean estvalide;
 
+    public String getIdReservation() {
+        return idReservation;
+    }
+
+    public void setIdReservation(String idReservation) {
+        this.idReservation = idReservation;
+    }
+
+    public Date getAnneeUniversitaire() {
+        return anneeUniversitaire;
+    }
+
+    public void setAnneeUniversitaire(Date anneeUniversitaire) {
+        this.anneeUniversitaire = anneeUniversitaire;
+    }
+
+    public boolean isEstvalide() {
+        return estvalide;
+    }
+
+    public void setEstvalide(boolean estvalide) {
+        this.estvalide = estvalide;
+    }
 }
